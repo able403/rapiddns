@@ -13,4 +13,7 @@ If you can't get the data,please turn down the time.sleep() in line 69
 
 # result：
 
-![result](https://user-images.githubusercontent.com/57324002/220522926-f3d12841-90c8-43a7-ac27-e94619ddf22b.png)
+![1677253334462](https://user-images.githubusercontent.com/57324002/221221755-32682d74-cb8e-4b14-aa60-2bb64df95622.png)
+
+
+![1677253486605(1)](https://user-images.githubusercontent.com/57324002/221222316-6901bf92-8ec3-4271-9736-ddc1ec0b62ad.png)
