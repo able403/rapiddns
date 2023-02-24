@@ -83,11 +83,11 @@ def main():
                     if (os.path.getsize(arg_ofile))== 0:
                         failt +=domain+"\n"
                     items_all += items + "\n"
-                allfile ="./result/"+ str(dt.strftime('%Y%m%d%H'))+".txt"
+                allfile =str(dt.strftime('%Y%m%d%H'))+".txt"
                 with open(allfile,"a+") as f:
                     f.write(items_all)
-                fail = "fail-"+str(dt.strftime('%Y%m%d%H'))+".txt"
-                with open("failt.txt","a+") as f:
+                failfile =str(dt.strftime('%Y%m%d%H'))+".txt"
+                with open(failfile,"a+") as f:
                     f.write(failt)                      
             except Exception as e:
                 print(e)
